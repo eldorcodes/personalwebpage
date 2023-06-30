@@ -1,0 +1,54 @@
+.book-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('../src/image/library.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    z-index: 0;
+    overflow: scroll;
+}
+.book-form {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+}
+.book-input {
+    width: calc(100% - 60px);
+    font-size: 16px;
+    padding: 10px;
+}
+.book-btn {
+    background-color: steelblue;
+    color: aliceblue;
+    width: 60px;
+}
+#book-data {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.each-book {
+    display: flex;
+    flex-direction: row;
+    border: 0.3px solid gray;
+    margin: 5px;
+    background-color: aliceblue;
+    color: black;
+}
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.view {
+    color: blue;
+}
+.read {
+    color: teal;
+}
